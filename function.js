@@ -8,7 +8,7 @@ var points = 0; //set the initial point to be 0
 var spans;
 var typed;
 var seconds = 20; //set the initial time to be 20
-var sound = new Audio("correct.mp3"); // point the audio to correct.mp3
+var sound = new Audio("correct.mp3"); // point the audio to the file named correct.mp3
 
 let list = [];
 
@@ -64,7 +64,7 @@ function random_words()
   var random_words = Math.floor(Math.random() * (1943 - 0 + 1)) + 0;
   var wordArray = list[random_words].split("");
   for (var i = 0; i < wordArray.length; i++) {
-    //building the words with spans around the letters
+    //building the words using the span element around the letter
     var span = document.createElement("span");
     span.classList.add("span");
     span.innerHTML = wordArray[i];
@@ -78,16 +78,13 @@ function typing(e)
   typed = String.fromCharCode(e.which);
   for (var i = 0; i < spans.length; i++) {
     if (spans[i].innerHTML === typed) {
-      // if typed letter is the one from the word
       if (spans[i].classList.contains("bg_color")) {
-        // if it already has class with the bacground color then check the next one
         continue;
       } else if (
         (spans[i].classList.contains("bg_color") === false &&
           spans[i - 1] === undefined) ||
         spans[i - 1].classList.contains("bg_color") !== false
       ) {
-        // if it dont have class, if it is not first letter or if the letter before it dont have class (this is done to avoid marking the letters who are not in order for being checked, for example if you have two "A"s so to avoid marking both of them if the first one is at the index 0 and second at index 5 for example)
         spans[i].classList.add("bg_color");
         break;
       }
@@ -97,7 +94,7 @@ function typing(e)
   var checker = 0;
   for (var j = 0; j < spans.length; j++) 
   {
-    //checking if all the letters are typed
+    //check whether the letters are typed or not
     if (spans[j].className === "span bg_color") 
     {
       checker++;
@@ -110,12 +107,12 @@ function typing(e)
       sound.play();
       words.classList.add("animated");
       words.classList.add("fadeOut");
-      points++; // increment the points
-      scoreDiv.innerHTML = points; //add points to the points div
+      points++; //make the point to increase
+      scoreDiv.innerHTML = points; //add the point to the score div
       document.removeEventListener("keydown", typing, false);
       setTimeout(function() {
-        words.className = "words"; // restart the classes
-        random_words(); // give another word
+        words.className = "words"; // restart the words class
+        random_words(); // display another random word
         document.addEventListener("keydown", typing, false);
       }, 400);
     }
