@@ -21,7 +21,7 @@
 HTML 
 <br/>
 <ul>
-  <li>HTML <marquee> tag is used for the word animation. Even though the <marquee> tag is considered as deprecated, it is still fun to be used for basic word animation.</li>
+  <li>HTML <code>marquee</code> tag is used for the word animation. Even though the <code><marquee></code> tag is considered as deprecated, it is still fun to be used for basic word animation.</li>
   <li></li>
 </ul> 
 <br/>
