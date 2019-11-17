@@ -9,13 +9,12 @@
 # Instructions to Deploy the Project
 <ol>
   <li>Download the project from GitHub as a zip file.</li>
-  <li>Extract the zip file and copy the "ChampionTypist" folder (which contains the files of the project) into the htdocs folder if you are using XAMPP as the localhost.</li>
+  <li>Extract the zip file as the "ChampionTypist" folder (which contains the files of the project) and cut the "ChampionTypist" folder into the htdocs folder if you are using XAMPP as the localhost.</li>
   <li>Open XAMPP Control Panel (if you are using XAMPP for the localhost) and start the Apache.</li>
   <li>Open the Chrome browser and clear the cache in the browser.</li>
   <li>Insert localhost/ChampionTypist as the URL and enjoy the game!</li>
 </ol>
 <br/>   
-
 
 # Programming Concepts Used for This Project
 HTML 
@@ -27,7 +26,8 @@ HTML
 </ul> 
 <br/>
 
-CSS <br/>
+CSS 
+<br/>
 <ul>
   <li>Bootstrap 3.4.0 is used and imported from the Bootstrap CDN for a more nice looking interface and a faster web design.</li>
   <li>CSS Media Queries are also used in the style.css. to make the game responsive in mobile devices.</li>
@@ -37,12 +37,14 @@ CSS <br/>
 JavaScript <br/>
 <ul>
   <li>addEventListener() method is used to make the random words to appear, make the timer begin counting and make the score to start the counting when the Start button is clicked.</li>
-  <li>xmlhttp is used to get the words from the word.txt file</li>
+  <li>A function with the XMLHttpRequest object is used to get the words from the word.txt file.</li>
+  <li>The alert() method is used to make the alert box to display the point received by the player.</li>
 </ul> 
 <br/>
 
-#Acknowledgement
+# Acknowledgement
 <ul>
   <li>Mr. Cheong Hou Yeen (KDU University College Penang coursemate) - for teaching me on how to import the .txt file for the JavaScript part.</li>
   <li>Mr. Nikola Simovic - for giving an example of how a similar type of typing game is built in CodePen.</li>
+  <li>Mr. Chong Wei (Hiring Manager from Telebort) - for giving me the chance to apply my knowledge and logic through the development of this game project.</li>
 </ul>  
