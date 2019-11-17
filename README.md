@@ -13,7 +13,7 @@
   <li>Rename the "ChampionTypist-master" folder as "ChampionTypist".</li>
   <li>Open XAMPP Control Panel (if you are using XAMPP for the localhost) and start the Apache.</li>
   <li>Open the Chrome browser and clear the cache in the browser.</li>
-  <li>Insert localhost/ChampionTypist as the URL and enjoy the game!</li>
+  <li>Insert localhost/ChampionTypist as the URL and enter the URL to enjoy the game!</li>
 </ol>
 <br/>
 
