@@ -43,7 +43,7 @@ JavaScript <br/>
 </ul> 
 <br/>
 
-# Acknowledgement
+# Acknowledgements
 <ul>
   <li>Mr. Cheong Hou Yeen (KDU University College Penang coursemate) - for teaching me on how to import the .txt file for the JavaScript part.</li>
   <li>Mr. Nikola Simovic - for giving an example of how a similar type of typing game is built in CodePen as well as for the sound and the word checking part of the JS.</li>
