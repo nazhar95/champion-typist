@@ -21,7 +21,7 @@
 HTML 
 <br/>
 <ul>
-  <li></li>
+  <li>HTML <marquee> tag is used for the word animation. Even though the <marquee> tag is considered as deprecated, it is still fun to be used for basic word animation.</li>
   <li></li>
 </ul> 
 <br/>
@@ -39,3 +39,9 @@ JavaScript <br/>
   <li></li>
 </ul> 
 <br/>
+
+#Acknowledgement
+<ul>
+  <li>Mr. Cheong Hou Yeen (KDU University College Penang coursemate) - for teaching me on how to import the .txt file for the JavaScript part.</li>
+  <li>Mr. Nikola Simovic - for giving an example of how a similar type of typing game is built in CodePen</li>
+</ul>  
