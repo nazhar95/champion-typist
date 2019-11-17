@@ -8,8 +8,9 @@
 
 # Instructions to Deploy the Project
 <ol>
-  <li>Download the project from GitHub as a zip file and extract the zip file to the "ChampionTypist-master" folder.</li> 
-  <li>Copy the "ChampionTypist" folder located in the "ChampionTypist-master" folder and paste the "ChampionTypist" folder into the htdocs folder if you are using XAMPP as the localhost.</li>
+  <li>Download the project from GitHub as a zip file and extract the zip file to be the "ChampionTypist-master" folder.</li> 
+  <li>Copy the "ChampionTypist-master" folder and paste the folder into the htdocs folder if you are using XAMPP as the localhost.</li>
+  <li>Rename the "ChampionTypist-master" folder as "ChampionTypist".</li>
   <li>Open XAMPP Control Panel (if you are using XAMPP for the localhost) and start the Apache.</li>
   <li>Open the Chrome browser and clear the cache in the browser.</li>
   <li>Insert localhost/ChampionTypist as the URL and enjoy the game!</li>
