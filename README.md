@@ -8,7 +8,7 @@
 
 # Instructions to Deploy the Project
 <ol>
-  <li>Download the project from GitHub as a zip file.</li>
+  <li>Download the project from GitHub as a zip file and name the zip file as ChampionTypist.zip.</li>
   <li>Extract the zip file as the "ChampionTypist" folder (which contains the files of the project) and cut the "ChampionTypist" folder into the htdocs folder if you are using XAMPP as the localhost.</li>
   <li>Open XAMPP Control Panel (if you are using XAMPP for the localhost) and start the Apache.</li>
   <li>Open the Chrome browser and clear the cache in the browser.</li>
