@@ -1,5 +1,5 @@
 # Champion Typist
-<p>A game project created by me for Telebort Hiring Task (Creative Computing Instructor) using basic web programming languages. Note: The game is best played with the Internet connection turned on and using the Chrome browser for a better gaming experience <span style="font-size:10px">&#128512;</span>. You may view it here: https://nazhar95.github.io/champion-typist/</p>
+<p>A game project created by me for Telebort Hiring Task (Creative Computing Instructor) using basic web programming languages. Note: The game is best played with the Internet connection turned on and using the Chrome browser for a better gaming experience <span style="font-size:10px">&#128512;</span>. You may view it here: https://nazhar95.github.io/champion-typist/ .</p>
 <br/>
 
 # What The Game is About
